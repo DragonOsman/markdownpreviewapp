@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Osman Zakir" />
+    <meta charset="utf-8" />
+    <title>DragonOsman Markdown Previewer</title>
+    <style>
+      body {
+        background-color: #6a5acd;
+        font-family: Helvetica-Neue, Ariel, sans-serif;
+        text-align: center;
+      }
+      
+      #editor {
+        text-align: left;
+        height: 250px;
+        width: 50%;
+      }
+  
+      #preview {
+        border: 1px solid #000;
+        background: #483d8b;
+        height: 100%;
+        width: 98.4%;
+        text-align: left;
+        padding-left: 20px;
+        overflow: auto;
+      }
+    
+      code {
+        background-color: #ffdddd;
+        padding: 2px;
+        overflow: auto;
+      }
+    
+      pre {
+        background-color: #ffdddd;
+        color: #000;
+        padding: 5px;
+        width: 450px;
+        overflow: auto;
+      }
+    
+      table {
+        border: 2px solid grey;
+        border-collapse: collapse;
+      
+      th, td {
+        border: 2px solid grey;
+        padding: 5px;
+      }
+    
+      blockquote {
+        border-left: 4px solid #ffdeee;
+        padding: 0 3px;
+      }
+
+      a {
+        color: #fffedd;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <textarea id="editor"></textarea>
+      <div id="preview"></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" async defer></script>
+    <script src="ttps://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.15/purify.min.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" async defer></script>
+    <script src="scripts/script.js>></script>
+  </body>
+</html>
