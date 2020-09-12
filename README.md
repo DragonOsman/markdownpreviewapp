@@ -1,0 +1,2 @@
+# markdownpreviewapp
+This is my solution to the Markdown Previewer Project in the Front End Library Projects curriculum on FreeCodeCamp, using jQuery and Sass. GitHub-flavored markdown in the editor is rendered in the preview box below as HTML.  Any changes made to the markdown in the editor are rendered to the preview as HTML as the user makes the changes. There's markdown in the editor to start with as well.
